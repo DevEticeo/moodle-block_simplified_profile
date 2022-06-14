@@ -1,0 +1,59 @@
+/**************************
+ *       GLOBAL
+ *************************/
+
+.block_simplified_profile.block .simplified_profile_row {
+    padding: 20px 35%;
+    background: #ebebeb;
+}
+.block_simplified_profile.block .simplified_profile_row .col-6:first-of-type {
+    border-right: 1px solid black;
+}
+
+.block_simplified_profile.block input {
+    border-radius: 30px;
+    padding: 5px 15px;
+    width: 100%;
+}
+.block_simplified_profile.block .col-12:not(.success-message) {
+    margin-top: 30px;
+}
+
+.block_simplified_profile.block .btn_simplified_profile {
+    background: #000!important;
+    color: white!important;
+    padding: 5px 15px!important;
+    border-radius: 30px;
+    font-size: 13px!important;
+    border: 3px solid black!important;
+    margin-right: 30px;
+    box-shadow: 0 1px 5px #646464!important;
+}
+
+.block_simplified_profile.block .btn_simplified_profile:hover {
+    color: black!important;
+    background: white!important;
+}
+
+.block_simplified_profile.block .col-buttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_simplified_profile.block .success-message .alert-success {
+    margin-top: 30px;
+}
+
+.block_simplified_profile.block h2 {
+    font-weight: bold!important;
+}
+
+/**************************
+ *     ERROR MESSAGE
+ *************************/
+
+.block_simplified_profile.block .error_message {
+    color: red;
+    font-style: italic;
+}
